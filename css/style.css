@@ -13,8 +13,7 @@ header {
 div#img-banner {
     height: 460px;
     position: relative;
-    margin-top: 15px;
-    margin-top: 85px;
+    margin-top: 110px;
 }
 div#img-banner img {
     position: absolute;
@@ -115,6 +114,8 @@ section#content-team {
     background-color: #bbd8de;
 }
 section#content-team .horizontal {
+    align-items: center;
+    justify-content: space-around;
     display: flex;
     flex-direction: row;
 }
@@ -255,6 +256,13 @@ footer img {
 .menu-mobile {
     display: none;
 }
+.box-content>div {
+    max-width: 50%;
+}
+
+
+
+
 @media (max-width: 915px) {
     .menu-banner {
         display: inline-block;
